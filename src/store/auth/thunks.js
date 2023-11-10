@@ -5,7 +5,7 @@ import { checkingCredentials, login, logout } from './'
 import { FirebaseDB } from '../../firebase/config';
 
 
-export const checkingAuthentication = (email, password) => {
+export const checkingAuthentication = () => {
     return async (dispatch) => {
 
         dispatch(checkingCredentials());
